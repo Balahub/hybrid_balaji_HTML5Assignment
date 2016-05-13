@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
+
+.container_24{
+	background:white;
+	width: 100%;
+}
+body{
+	background-color: white;
+}
+
+header nav {
+	width: 100%;
+	display:inline;
+}
+
+header h1{
+float:left;
+height: 4 auto;0px;
+background-color: lightblue;
+color:black;
+margin: auto;
+padding-right: 300px;
+overflow: hidden;
+font-family: 'Libre Baskerville' , sans-serif;
+font-size: 15px;
+height:35px;
+
+}
+
+footer li {
+    float: right;
+}
+
+nav li{
+	display:inline;
+	float:left;
+	/*background:black;*/
+	text-align: center;
+  text-decoration: none;
+	padding-right: 50px;
+
+}
+
+li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    background-color: green;
+}
+
+p{
+	display: block;
+	font-family: 'Libre Baskerville' , sans-serif;
+}
+
+.main{
+		 margin: 30px 0;
+}
+
+hero{
+	margin-left: 30px;
+}
+
+.primary {
+    float:left;
+    text-align: center;
+		height:450px;
+    width: 318px;
+		margin-left: 60px;
+	}
+
+.content{
+    float:left;
+    text-align: center;
+    width: 100%;
+		margin-left: 20px;
+
+}
+.secondary{
+	   float:left;
+    text-align: center;
+    width: 100%;
+		margin-left: 20px;
+}
+
+
+.span12 {
+    width: 100%;
+           -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            margin-left: 30px;
+            float:center;
+            text-align: justify-all;
+            text-decoration: none;
+            display: block;
+            }
+
+  img{
+  	margin-left: auto;
+    margin-right: auto;
+  }
+
+footer img{
+		float:right;
+	}
+
+	footer{
+			clear:both;
+			border-top: 2px solid #d1d1d1;
+			padding-top: 18px;
+			margin-top: 30px;
+			background-color: grey;
+	}
+
+footer .nav-footer-links
+{
+    color: #999999;
+    font-size: 11px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    text-align: justify;
+    width: 100%;
+		float:right;
+}
+
+footer ul {
+	float:left;
+}
