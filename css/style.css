@@ -11,12 +11,14 @@
 @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
 
 .container_24{
-	background:white;
 	width: 100%;
 }
 body{
-	background-color: white;
+	/*background-image: url("../img/Seagate_BG.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;*/
 }
+
 
 header nav {
 	width: 100%;
@@ -26,15 +28,14 @@ header nav {
 header h1{
 float:left;
 height: 4 auto;0px;
-background-color: lightblue;
-color:black;
+background-color: black;
+color:blue;
 margin: auto;
 padding-right: 300px;
 overflow: hidden;
 font-family: 'Libre Baskerville' , sans-serif;
 font-size: 15px;
 height:35px;
-
 }
 
 footer li {
@@ -44,7 +45,7 @@ footer li {
 nav li{
 	display:inline;
 	float:left;
-	/*background:black;*/
+	background:black;
 	text-align: center;
   text-decoration: none;
 	padding-right: 50px;
@@ -65,13 +66,15 @@ li a:hover {
 p{
 	display: block;
 	font-family: 'Libre Baskerville' , sans-serif;
+	color:green;
+	font-weight: bold;
 }
 
 .main{
 		 margin: 30px 0;
 }
 
-hero{
+hero {
 	margin-left: 30px;
 }
 
